@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gantabya.project">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_launcher1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_launcher1_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MapActivity"
+            android:label="Gantabya"
+            android:parentActivityName=".DataViewerActivity" />
+        <activity
+            android:name=".DataViewerActivity"
+            android:label="Gantabya"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".AdminActivity"
+            android:label="Gantabya"
+            android:parentActivityName=".LoginActivity" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="Gantabya"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".NearestStationActivity"
+            android:label="@string/title_activity_nearest_station"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".DataNewActivity" />
+        <activity
+            android:name=".Navigation"
+            android:label="@string/title_activity_navigation" />
+        <activity
+            android:name=".TestActivity"
+            android:label="@string/title_activity_test"></activity>
+    </application>
+
+</manifest>

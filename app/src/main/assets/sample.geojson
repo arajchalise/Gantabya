@@ -1,0 +1,65 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.2957413,
+          27.6852928
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "description": "Southern Ave",
+        "marker-symbol": "rail-metro",
+        "title": "Southern Ave",
+        "url": "http://www.wmata.com/rider_tools/pids/showpid.cfm?station_id=107",
+        "lines": [
+          "Green"
+        ],
+        "address": "1411 Southern Avenue, Temple Hills, MD 20748"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.2781593,
+          27.6783737
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "description": "Deanwood",
+        "marker-symbol": "rail-metro",
+        "title": "Deanwood",
+        "url": "http://www.wmata.com/rider_tools/pids/showpid.cfm?station_id=65",
+        "lines": [
+          "Orange"
+        ],
+        "address": "4720 Minnesota Avenue NE, Washington, DC 20019"
+      }
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          85.3430395,
+          27.6770872
+        ]
+      },
+      "type": "Feature",
+      "properties": {
+        "description": "College Park",
+        "marker-symbol": "rail-metro",
+        "title": "College Park",
+        "url": "http://www.wmata.com/rider_tools/pids/showpid.cfm?station_id=79",
+        "lines": [
+          "Green"
+        ],
+        "address": "4931 Calvert Road, College Park, MD 20740"
+      }
+    }
+  ]
+}
